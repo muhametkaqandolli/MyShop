@@ -8,6 +8,8 @@ using MyShop.Core.Models;
 
 namespace MyShop.DataAccess.InMemory
 {
+    // This class is no longer needed
+    // It is just here for reference
     public class ProductRepository
     {
         ObjectCache cache = MemoryCache.Default;
